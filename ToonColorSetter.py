@@ -23,4 +23,5 @@ initialText="Type a float value between 0.0 and 1.0", numLines = 2,focus=1,focus
 def textToVBase4Values():
 	rgbavalues[index] = textEntered
 	index = index + 1
+	if index > 3
 		colorValue = VBase4(rgbaValues)
