@@ -4,6 +4,8 @@ from direct.gui.DirectGui import *
 from panda3d.core import *
 
 rgbaValues[4]
+index = 0
+colorValue
 
 bk_text = "The Toon color setter. ;)"
 textObject = OnscreenText(text = bk_text, pos = (0.95,-0.95), 
@@ -17,3 +19,8 @@ def clearText():
 	
 b = DirectEntry(text = "" ,scale=.05,command=setText,
 initialText="Type a float value between 0.0 and 1.0", numLines = 2,focus=1,focusInCommand=clearText)
+
+def textToVBase4Values():
+	rgbavalues[index] = textEntered
+	index = index + 1
+		colorValue = VBase4(rgbaValues)
