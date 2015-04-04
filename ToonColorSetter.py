@@ -26,4 +26,4 @@ def textToVBase4Values():
 	rgbavalues[index] = textEntered
 	index = index + 1
 	if index > 3
-		colorValue = VBase4(rgbaValues)
+		colorValue = VBase4(rgbaValues[0],rgbaValues[1],rgbaValues[2],rgbaValues[3])
