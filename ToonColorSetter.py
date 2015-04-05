@@ -24,6 +24,9 @@ def clearText():
 b = DirectEntry(text = "" ,scale=.05,command=setText,
 initialText="Type a float value between 0.0 and 1.0", numLines = 2,focus=1,focusInCommand=clearText)
 
+def isTextValid():
+	if textEntered <1.01 and >-0.01
+	continue
 def textToVBase4Values():
 	rgbavalues[index] = textEntered
 	index = index + 1
