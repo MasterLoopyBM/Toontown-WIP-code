@@ -6,6 +6,7 @@ from direct.gui.DirectGui import *
 from panda3d.core import *
 from toontown.toon.ToonDNA import *
 from toontown.makeatoon.ColorShop import *
+from pandac.PandaModules import VBase4
 
 rgbaValues[4]
 index = 0
