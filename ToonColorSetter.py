@@ -4,6 +4,8 @@ import direct.directbase.DirectStart
 from direct.gui.OnscreenText import OnscreenText 
 from direct.gui.DirectGui import *
 from panda3d.core import *
+from toontown.toon.ToonDNA import *
+from toontown.makeatoon.ColorShop import *
 
 rgbaValues[4]
 index = 0
