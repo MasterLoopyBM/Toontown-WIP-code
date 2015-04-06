@@ -1,0 +1,8 @@
+String cogvar
+findTarget()
+input cogvar
+isCogvarValid()
+while validData = 1
+  toonHead = cogvar
+endwhile
+toonHeadRevert
